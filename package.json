@@ -1,0 +1,24 @@
+{
+  "name": "text-slides",
+  "version": "0.0.0",
+  "description": "Bike shed ascii slide viewer",
+  "main": "index.js",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "single-line-log": "^1.0.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "text-slides": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/text-slides.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/text-slides/issues"
+  },
+  "homepage": "https://github.com/mafintosh/text-slides"
+}
