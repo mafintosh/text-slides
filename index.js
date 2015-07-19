@@ -7,8 +7,8 @@ var log = require('single-line-log').stdout
 
 var max = 0
 
-slides = slides.toString().split('----\n').map(function (slide, i) {
-  slide = '\n\n  ' + slide.split('\n').join('\n  ') + '\n\n'
+slides = slides.toString().split('\n----\n').map(function (slide, i) {
+  slide = '\n\n  ' + slide.split('\n').join('\n  ') + '\n\n\n'
   max = Math.max(max, slide.split('\n').length)
   return slide
 }).map(function (slide, i) {
