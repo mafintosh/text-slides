@@ -1,6 +1,6 @@
 {
   "name": "text-slides",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bike shed ascii slide viewer",
   "main": "index.js",
   "dependencies": {
